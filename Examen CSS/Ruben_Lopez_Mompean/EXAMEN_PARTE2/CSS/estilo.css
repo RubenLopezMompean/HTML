@@ -1,0 +1,162 @@
+
+body{
+		color:black;
+		background: #2b7b46;
+	}
+	section{
+		text-align:center;
+	}
+	section.prim{
+		margin-top:-4rem;
+	}
+	article{
+		margin:1rem 4rem;
+		background-color:#7bb790;
+		border-radius:50px;
+	}
+	article.prim{
+		margin-top:4rem;
+	}
+	nav {
+		padding-top:20px;
+		padding-bottom:20px;
+		margin:auto;
+		text-align:center;
+		font-size:2rem;
+    display: block;
+		background-color:red;
+		width:80%;
+		border-radius:100px;
+	}
+	a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+	}
+	a:visited {
+			color: pink;
+			background-color: transparent;
+			text-decoration: none;
+	}
+	a:hover {
+			color: red;
+			background-color: transparent;
+			text-decoration: underline;
+	}
+	a:active {
+			color: yellow;
+			background-color: transparent;
+			text-decoration: underline;
+	}
+	hr{
+		margin-top:-1rem;
+		display:block;
+		border-style:inset;
+		border-width:1rem;
+		border-color:#4d9866;
+		border-radius:20px;		
+	}
+	a{
+		padding:1rem;
+	}
+	header.main{
+		text-align:center;
+		font-size:2rem;
+		letter-spacing:2rem;
+		color:white;
+		margin-top:-2rem;
+		margin-bottom:-3rem;
+
+	}
+	h1,h2{
+		font-variant: small-caps;
+	}
+	
+	#header {
+				margin:auto;
+				width:33.2rem;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#red;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+				background-color:#023f17;
+				padding-left:0;
+				font-size:1rem;
+
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+			div{
+			margin-top:0;
+			margin-bottom:200px;
+			background-color:#023f17;
+			text-align:center;
+			height:2.5rem;
+			border-radius:20px;
+			font-size:1.5rem;
+			padding-bottom:0.7rem;			
+			}
+			footer{
+				text-align:right;
+			}
+			img{
+				float:center;
+				width:161px;
+				height:150px;
+			}
+			h2 p.prin{
+				text-align:center;
+			}
+			p{
+				text-align:justify;
+				padding:0rem 2rem;
+			}
+			p.centrado{
+				margin-top:0rem;
+				text-align:center;
+				font-size:0.8rem;
+				font-weight:bold;
+			}
+			p.contenido{
+				text-align:justify;
+				padding-left:5rem;
+			}
+			ul.ingrediente{
+				text-align:justify;
+				padding-left:5rem;
+				list-style-type: disc;
+			}
